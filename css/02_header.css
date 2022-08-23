@@ -22,12 +22,14 @@ header {
   flex: 1;
   text-align: right;
   margin-right: 50px;
+  margin-top: 100px;
 }
 
 .nav-right .nav-item {
   margin-left: 40px;
   font-size: 15px;
   color: #d6ccff;
+  cursor: pointer;
 }
 
 .nav-right .svg-img {
