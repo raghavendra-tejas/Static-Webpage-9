@@ -23,6 +23,30 @@
   .header-text p {
     font-size: 10px;
   }
+  /* Mid Section */
+  .company .company-item {
+    display: block;
+    margin-left: 0px;
+  }
+  .blog-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 0 0 0;
+    padding-bottom: 60px;
+    /* background-color: aquamarine; */
+    flex-flow: wrap;
+  }
+  .blog-card {
+    flex-grow: 1;
+    padding-bottom: 50px;
+  }
+  .blog-bottom img {
+    left: 40px;
+  }
+  
+
+  
 }
 
 
@@ -50,6 +74,26 @@
   .header-text p {
     font-size: 10px;
   }
+  /* Mid Section */
+  .company .company-item {
+    margin-left: 30px;
+  }
+  .blog-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 0 0 0;
+    padding-bottom: 60px;
+    /* background-color: aquamarine; */
+    flex-flow: wrap;
+  }
+  .blog-card {
+    flex-grow: 1;
+    padding-bottom: 50px;
+  }
+  .blog-bottom img {
+    left: 40px;
+  }
 }
 
 
@@ -72,6 +116,26 @@
   .header-text p {
     font-size: 10px;
   }
+  /* Mid Section */
+  .company .company-item {
+    margin-left: 30px;
+  }
+  .blog-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 0 0 0;
+    padding-bottom: 60px;
+    /* background-color: aquamarine; */
+    flex-flow: wrap;
+  }
+  .blog-card {
+    flex-grow: 1;
+    padding-bottom: 50px;
+  }
+  .blog-bottom img {
+    left: 40px;
+  }
 }
 
 
@@ -85,6 +149,30 @@
     width: 400px;
     margin-top: 20px;
   }
+  /* Mid Section */
+  .blog-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 0 0 0;
+    padding-bottom: 60px;
+    /* background-color: aquamarine; */
+  }
+  .blog-card {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
+  .blog-cards .blog-card-2 {
+    margin-left: 30px;
+  }
+  .blog-bottom img {
+    left: 40px;
+  }
+  .blog-bottom b {
+    left: 150px;
+    /* background-color: yellow; */
+  }
 }
 
 
@@ -97,5 +185,24 @@
   .header-image {
     margin-top: 20px;
   }
-}
+  /* Mid Section */
+  .blog-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 0 0 0;
+    padding-bottom: 60px;
+    background-color: aquamarine;
+  }
+  .blog-card {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
+  .blog-cards .blog-card-2 {
+    margin-left: 30px;
+  }
+  .blog-bottom img {
+    left: 40px;
+  }
 }
