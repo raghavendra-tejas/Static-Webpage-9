@@ -44,9 +44,47 @@
   .blog-bottom img {
     left: 40px;
   }
-  
-
-  
+  /* Bottom Section */
+  .faq-image {
+    display: none;
+  }
+  .download-section {
+    display: block;
+  }
+  .download-section .download-content {
+    padding: 15px 0;
+  }
+  .download-email input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .download-email button {
+    display: block;
+    margin-bottom: 20px;
+  }
+  /* Footer Section */
+  .footer-section {
+    display: block;
+    padding: 20px 20px;
+  }
+  .footer-left {
+    padding-bottom: 40px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .footer-right {
+    margin-right: 100px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .footer-right-sub {
+    /* background-color: antiquewhite; */
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:5px;
+  }
 }
 
 
@@ -94,6 +132,46 @@
   .blog-bottom img {
     left: 40px;
   }
+  /* Bottom Section */
+  .faq-image {
+    display: none;
+  }
+  .download-section {
+    display: block;
+    margin-bottom: -20px;
+  }
+  .download-section .download-content {
+    padding: 15px 0;
+  }
+  .download-email input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .download-email button {
+    display: block;
+  }
+  /* Footer Section */
+  .footer-section {
+    display: block;
+    padding: 20px 40px;
+  }
+  .footer-left {
+    padding-bottom: 40px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .footer-right {
+    margin-right: 100px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .footer-right-sub {
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:5px;
+  }
 }
 
 
@@ -135,6 +213,43 @@
   }
   .blog-bottom img {
     left: 40px;
+  }
+  /* Bottom Section */
+  .download-section {
+    display: block;
+    margin-bottom: -20px;
+  }
+  .download-section .download-content {
+    padding: 15px 0;
+  }
+  .download-email input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .download-email button {
+    display: block;
+  }
+  /* Footer Section */
+  .footer-section {
+    display: block;
+    padding: 20px 40px;
+  }
+  .footer-left {
+    padding-bottom: 40px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .footer-right {
+    margin-right: 100px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .footer-right-sub {
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:5px;
   }
 }
 
@@ -192,7 +307,7 @@
     align-items: center;
     margin: 30px 0 0 0;
     padding-bottom: 60px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
   }
   .blog-card {
     flex: 1;
